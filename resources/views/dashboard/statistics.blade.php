@@ -143,34 +143,31 @@
                             <div class="card-body">
                                 <div class="text-center">
                                     <div class="wrapper">
-                                        <header>
-                                          <p class="current-date"></p>
-                                          <div class="icons">
-                                            <span id="prev" class="material-symbols-rounded">chevron_left</span>
-                                            <span id="next" class="material-symbols-rounded">chevron_right</span>
-                                          </div>
-                                        </header>
-                                        <div class="calendar">
-                                          <ul class="weeks">
-                                            <li>Sun</li>
-                                            <li>Mon</li>
-                                            <li>Tue</li>
-                                            <li>Wed</li>
-                                            <li>Thu</li>
-                                            <li>Fri</li>
-                                            <li>Sat</li>
-                                          </ul>
-                                          <ul class="days"></ul>
-                                        </div>
-                                      </div>
+      <header>
+        <p class="current-date"></p>
+        <div class="icons">
+          <span id="prev" class="material-symbols-rounded">chevron_left</span>
+          <span id="next" class="material-symbols-rounded">chevron_right</span>
+        </div>
+      </header>
+      <div class="calendar">
+        <ul class="weeks">
+          <li>Sun</li>
+          <li>Mon</li>
+          <li>Tue</li>
+          <li>Wed</li>
+          <li>Thu</li>
+          <li>Fri</li>
+          <li>Sat</li>
+        </ul>
+        <ul class="days"></ul>
+      </div>
+    </div>
                                 </div>
-                            
-                               
-                                
-                               
                             </div>
                         </div>
-                        <div class="card shadow mb-3">
+
+                        {{-- <div class="card shadow mb-3">
                             <div class="card-header py-3">
                                 <h6 class="m-0 font-weight-bold text-primary">Rewards</h6>
                             </div>
@@ -185,7 +182,7 @@
                                     <i class="fas fa-award bigger-icon"></i>Physicist 
                                 </span>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     
                 </div>
